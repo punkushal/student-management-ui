@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:student_management_ui/screens/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         useMaterial3: true,
       ),
+      home: const SplashScreen(),
     );
   }
 }
