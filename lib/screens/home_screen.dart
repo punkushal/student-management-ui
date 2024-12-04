@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:student_management_ui/widgets/search_field.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -33,7 +34,9 @@ class HomeScreen extends StatelessWidget {
           ],
         ),
         body: const Column(
-          children: [],
+          children: [
+            SearchField(),
+          ],
         ));
   }
 }
