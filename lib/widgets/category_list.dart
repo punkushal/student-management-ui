@@ -16,73 +16,73 @@ class CategoryList extends StatelessWidget {
         CustomContainer(
           content: CardContent(
             label: 'Students',
-            imageUrl: 'images/read.png',
+            imageUrl: 'assets/images/read.png',
           ),
         ),
         CustomContainer(
           content: CardContent(
             label: 'Teachers',
-            imageUrl: 'images/teacher.png',
+            imageUrl: 'assets/images/teacher.png',
           ),
         ),
         CustomContainer(
           content: CardContent(
             label: 'Attendence',
-            imageUrl: 'images/immigration.png',
+            imageUrl: 'assets/images/immigration.png',
           ),
         ),
         CustomContainer(
           content: CardContent(
             label: 'Syllabus',
-            imageUrl: 'images/book.png',
+            imageUrl: 'assets/images/book.png',
           ),
         ),
         CustomContainer(
           content: CardContent(
             label: 'Time Table',
-            imageUrl: 'images/study-time.png',
+            imageUrl: 'assets/images/study-time.png',
           ),
         ),
         CustomContainer(
           content: CardContent(
             label: 'Assignments',
-            imageUrl: 'images/assignment.png',
+            imageUrl: 'assets/images/assignment.png',
           ),
         ),
         CustomContainer(
           content: CardContent(
             label: 'Exams',
-            imageUrl: 'images/exam.png',
+            imageUrl: 'assets/images/exam.png',
           ),
         ),
         CustomContainer(
           content: CardContent(
             label: 'Results',
-            imageUrl: 'images/result.png',
+            imageUrl: 'assets/images/result.png',
           ),
         ),
         CustomContainer(
           content: CardContent(
             label: 'Fees',
-            imageUrl: 'images/fee.png',
+            imageUrl: 'assets/images/fee.png',
           ),
         ),
         CustomContainer(
           content: CardContent(
             label: 'Events',
-            imageUrl: 'images/calendar.png',
+            imageUrl: 'assets/images/calendar.png',
           ),
         ),
         CustomContainer(
           content: CardContent(
             label: 'Inbox',
-            imageUrl: 'images/inbox.png',
+            imageUrl: 'assets/images/inbox.png',
           ),
         ),
         CustomContainer(
           content: CardContent(
             label: 'Ask Doubts',
-            imageUrl: 'images/ask.png',
+            imageUrl: 'assets/images/ask.png',
           ),
         ),
       ],
