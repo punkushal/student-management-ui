@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:student_management_ui/widgets/category_list.dart';
 import 'package:student_management_ui/widgets/search_field.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -36,6 +37,29 @@ class HomeScreen extends StatelessWidget {
         body: const Column(
           children: [
             SearchField(),
+            Expanded(
+              child: Padding(
+                padding: EdgeInsets.symmetric(vertical: 12, horizontal: 14),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Academics',
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 16,
+                    ),
+                    Expanded(
+                      child: CategoryList(),
+                    ),
+                  ],
+                ),
+              ),
+            ),
           ],
         ));
   }
