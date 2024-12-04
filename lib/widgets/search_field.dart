@@ -13,14 +13,21 @@ class SearchField extends StatelessWidget {
         borderRadius: BorderRadius.circular(12), // Rounded corners
         boxShadow: [
           BoxShadow(
-            color: Colors.grey.withOpacity(0.3), // Subtle shadow
+            color: Colors.grey.withOpacity(0.1), // Subtle shadow
             spreadRadius: 1,
             blurRadius: 4,
             offset: const Offset(0, 2), // Shadow position
           ),
         ],
       ),
-      child: const CustomTextField(radius: 12),
+      child: const CustomTextField(
+        radius: 12,
+        prefixIcon: Icon(
+          Icons.search,
+          color: Colors.grey,
+        ),
+        labelText: 'Search',
+      ),
     );
   }
 }
