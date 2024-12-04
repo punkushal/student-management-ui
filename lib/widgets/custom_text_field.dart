@@ -4,20 +4,20 @@ class CustomTextField extends StatelessWidget {
   const CustomTextField({
     super.key,
     this.prefixIcon,
-    this.hintText,
     required this.radius,
+    this.labelText,
   });
 
   final Widget? prefixIcon;
-  final String? hintText;
+  final String? labelText;
   final double radius;
 
   @override
   Widget build(BuildContext context) {
     return TextField(
       decoration: InputDecoration(
-        fillColor: Colors.white24,
-        hintText: hintText,
+        labelText: labelText,
+        labelStyle: const TextStyle(color: Colors.grey),
         prefixIcon: prefixIcon,
         border: InputBorder.none,
       ),
